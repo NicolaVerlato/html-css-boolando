@@ -69,6 +69,12 @@ header{
 .img-hover{
     display: none;
 }
+.content:hover .img-hover{
+    display: inline-block;
+}
+.content:hover img{
+    display: none;
+}
 .card{
     position: relative;
 }
