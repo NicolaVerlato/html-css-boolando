@@ -19,6 +19,7 @@ img{
 .flex-container{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 ul{
     display: flex;
@@ -51,4 +52,63 @@ header{
 }
 .categoria li{
     font-weight: 800;
+}
+
+/* main */
+
+.first-section{
+    padding-top: 80px;
+}
+.second-section{
+    margin-top: 35px;
+}
+.content{
+    padding: 0 5px;
+    width: calc(100% / 3);
+}
+.img-hover{
+    display: none;
+}
+.card{
+    position: relative;
+}
+.heart{
+    background-color: white;
+    text-align: center;
+    line-height: 25px;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    top: 5px;
+    right: 0;
+}
+.option{
+    color: white;
+    padding: 3px 5px;
+    font-size: 10px;
+    font-weight: 600;
+}
+.discount{
+    background-color: red;
+
+}
+.sostenibilità{
+    background-color: green;
+}
+.discount-info{
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+}
+.down-content{
+    font-size: 12px;
+}
+.down-content h2{
+    font-size: 12px;
+}
+.red{
+    color: red;
+}
+.deleted{
+    text-decoration: line-through;
 }
