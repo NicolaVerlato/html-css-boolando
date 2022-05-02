@@ -118,3 +118,28 @@ header{
 .deleted{
     text-decoration: line-through;
 }
+
+/* footer */
+footer{
+    color: white;
+    background-color: black;
+    margin-top: 30px;
+    padding: 15px 0;
+}
+.company-name{
+    font-size: 13px;
+    padding-left: 3px;
+    padding-bottom: 5px;
+    font-weight: 700;
+}
+.privacy a{
+    font-size: 10px;
+}
+.info-social{
+    font-size: 10px;
+    padding-bottom: 5px;
+}
+.social{
+    padding-right: 0 15px;
+    font-size: 14px;
+}
